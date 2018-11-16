@@ -30,7 +30,7 @@ img {
     .header .navbar .navbar-nav {
       padding-bottom: 5px;
       background-color: #fff;
-      margin: 0 -15px; }
+      margin: 0 -15px !important; }
     .header .navbar .nav-item {
       position: relative; }
       .header .navbar .nav-item .nav-link {
