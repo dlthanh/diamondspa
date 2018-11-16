@@ -89,4 +89,29 @@ $(function() {
             offsettop = $(link).offset().top - 135;
         $('html, body').animate({scrollTop: offsettop}, 600, 'swing');
     })
+
+    $('.nav-link').click(function(e) {
+        e.preventDefault();
+        $('.nav-link').parent().removeClass('active');
+        $(this).parent().addClass('active');
+        var link = $(this).attr('href');
+        if(link == '#home') {
+            $('html, body').animate({scrollTop: 0}, 600, 'swing');
+        } else {
+            var offsettop = $(link).offset().top - 135;
+            $('html, body').animate({scrollTop: offsettop}, 600, 'swing');
+        }
+
+        if($(this).data('slide') == '1') {
+            service.slideTo(0, 0);
+        }
+
+        if($(this).data('slide') == '2') {
+            service.slideTo(1, 0);
+        }
+
+        if(window.screen.width <= 768) {
+            $('.navbar-collapse').removeClass('show')
+        }
+    })
 });
