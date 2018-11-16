@@ -149,13 +149,18 @@ img {
       display: none; }
     .banner-form_description {
       font-size: 16px;
-      color: #fff; }
+      color: #fff;
+      font-weight: 700; }
     .banner-form_slogan {
       font-size: 26px;
       line-height: 34px; }
     .banner-form_sapo {
       font-size: 16px;
       color: #fff; }
+      .banner-form_sapo span {
+        font-size: 15px !important; }
+    .banner-form_input {
+      text-align: center; }
     .banner .swiper-slide {
       background-position: left -250px top !important; }
       .banner .swiper-slide:first-child {
@@ -203,7 +208,7 @@ img {
     .secret-heading {
       font-size: 22px; }
     .secret-description {
-      font-size: 14px; }
+      font-size: 13px; }
       .secret-description br {
         display: none; }
     .secret-title {
@@ -211,7 +216,7 @@ img {
       margin-top: 10px;
       margin-bottom: 15px; }
     .secret-sapo {
-      font-size: 14px; } }
+      font-size: 13px; } }
 
 .service {
   padding-top: 70px;
@@ -269,7 +274,7 @@ img {
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23efba09'%2F%3E%3C%2Fsvg%3E"); }
   @media (max-width: 767px) {
     .service-heading {
-      font-size: 22px; }
+      font-size: 18px; }
     .service-description {
       font-size: 14px; }
       .service-description br {
@@ -364,8 +369,6 @@ img {
     padding: 0 30px; }
   .technical-slider {
     padding-bottom: 20px; }
-    .technical-slider .swiper-slide {
-	width: 100%!important }
   .technical-pagination {
     position: relative;
     width: auto !important;
@@ -396,7 +399,8 @@ img {
       font-size: 20px;
       margin-top: 30px; }
     .technical-sapo {
-      font-size: 14px; }
+      font-size: 14px;
+      padding: 15px; } }
 
 .reason {
   font-family: "UTM Times", sans-serif;
@@ -477,9 +481,14 @@ img {
   width: 100%; }
 @media (max-width: 767px) {
   .contact-heading {
-    font-size: 22px; }
+    font-size: 21px; }
+    .contact-heading span {
+      margin-top: 10px; }
   .contact-description {
-    font-size: 14px; } }
+    font-size: 14px; }
+  .contact-left {
+    padding-left: 15px;
+    padding-right: 15px; } }
 
 .footer {
   background-color: #222328;

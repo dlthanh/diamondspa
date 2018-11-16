@@ -145,12 +145,17 @@ img
       &_description
         font-size: 16px
         color: $color-fff
+        font-weight: 700
       &_slogan
         font-size: 26px
         line-height: 34px
       &_sapo
         font-size: 16px
         color: $color-fff
+        span
+          font-size: 15px!important
+      &_input
+        text-align: center
     .swiper-slide
       background-position: left -250px top!important
       &:first-child
@@ -197,7 +202,7 @@ img
     &-heading
       font-size: 22px
     &-description
-      font-size: 14px
+      font-size: 13px
       br
         display: none
     &-title
@@ -205,7 +210,7 @@ img
       margin-top: 10px
       margin-bottom: 15px
     &-sapo
-      font-size: 14px
+      font-size: 13px
 
 .service
   padding-top: 70px
@@ -263,7 +268,7 @@ img
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23efba09'%2F%3E%3C%2Fsvg%3E")
   @media (max-width: 767px)
     &-heading
-      font-size: 22px
+      font-size: 18px
     &-description
       font-size: 14px
       br
@@ -393,6 +398,7 @@ img
       margin-top: 30px
     &-sapo
       font-size: 14px
+      padding: 15px
 
 .reason
   font-family: 'UTM Times', sans-serif
@@ -476,9 +482,14 @@ img
     width: 100%
   @media (max-width: 767px)
     &-heading
-      font-size: 22px
+      font-size: 21px
+      span
+        margin-top: 10px
     &-description
       font-size: 14px
+    &-left
+      padding-left: 15px
+      padding-right: 15px
 
 .footer
   background-color: #222328
