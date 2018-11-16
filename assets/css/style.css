@@ -152,10 +152,10 @@ img {
       color: #fff;
       font-weight: 700; }
     .banner-form_slogan {
-      font-size: 26px;
-      line-height: 34px; }
+      font-size: 24px;
+      line-height: 32px; }
     .banner-form_sapo {
-      font-size: 16px;
+      font-size: 15px;
       color: #fff; }
       .banner-form_sapo span {
         font-size: 15px !important; }
@@ -284,7 +284,9 @@ img {
     .service-sapo {
       font-size: 14px; }
     .service-next, .service-prev {
-      display: none; } }
+      display: none; }
+    .service .col-md-5 {
+      padding-left: 40px; } }
 
 .process {
   padding-top: 60px;
@@ -411,6 +413,8 @@ img {
     color: #efba09;
     text-transform: uppercase;
     margin: 0 auto 25px; }
+    .reason-heading br {
+      display: none; }
   .reason-description {
     font-size: 16px;
     line-height: 24px;
@@ -429,7 +433,10 @@ img {
     text-align: center; }
   @media (max-width: 767px) {
     .reason-heading {
-      font-size: 22px; }
+      font-size: 22px;
+      text-align: center; }
+      .reason-heading br {
+        display: block; }
     .reason .table {
       height: 0; } }
 
