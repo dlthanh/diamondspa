@@ -30,7 +30,10 @@ img {
     .header .navbar .navbar-nav {
       padding-bottom: 5px;
       background-color: #fff;
-      margin: 0 -15px !important; }
+      margin: 0 -15px; }
+      @media (max-width: 767px) {
+        .header .navbar .navbar-nav {
+          margin: 0 -15px !important; } }
     .header .navbar .nav-item {
       position: relative; }
       .header .navbar .nav-item .nav-link {

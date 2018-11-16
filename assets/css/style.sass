@@ -23,7 +23,9 @@ img
     .navbar-nav
       padding-bottom: 5px
       background-color: $color-fff
-      margin: 0 -15px!important
+      margin: 0 -15px
+      @media (max-width: 767px)
+        margin: 0 -15px!important
     .nav-item
       position: relative
       .nav-link
@@ -42,6 +44,7 @@ img
       &.active
         &::before
           background-color: rgba($main-color, 1)
+
 
 .banner
   margin-top: 135px
