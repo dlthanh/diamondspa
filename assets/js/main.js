@@ -3,7 +3,8 @@ $(function() {
         speed: 600,
         slidesPerView: 1,
         pagination: {
-            el: '.banner-pagination'
+            el: '.banner-pagination',
+            clickable: true
         },
         navigation: {
             nextEl: '.banner-next',
@@ -21,7 +22,8 @@ $(function() {
         speed: 600,
         slidesPerView: 1,
         pagination: {
-            el: '.service-pagination'
+            el: '.service-pagination',
+            clickable: true
         },
         navigation: {
             nextEl: '.service-next',
@@ -35,7 +37,8 @@ $(function() {
         spaceBetween: 30,
         // autoplay: true,
         pagination: {
-            el: '.technical-pagination'
+            el: '.technical-pagination',
+            clickable: true
         },
         breakpoints: {
             768: {
