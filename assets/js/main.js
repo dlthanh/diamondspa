@@ -69,7 +69,7 @@ $(function() {
             }
         });
         setTimeout(function() {
-            $('.success').fadeIn(300).delay(1000).fadeOut(300);
+            alert('Đăng ký thành công');
         }, 1000)
     });
 
@@ -84,6 +84,9 @@ $(function() {
                 'entry.578315256': phone
             }
         })
+		setTimeout(function() {
+            alert('Đăng ký thành công');
+        }, 1000)
     });
 
     $('.banner-link').click(function(e) {
